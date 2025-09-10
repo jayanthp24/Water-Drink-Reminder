@@ -1,0 +1,18 @@
+{
+	"manifest_version": 3,
+	"name": "Water Reminder",
+	"version": "1.0",
+	"description": "A customizable water drinking reminder.",
+	"permissions": ["alarms", "notifications", "storage"],
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+		"default_popup": "popup.html",
+		"default_title": "Configure your water reminder"
+	},
+	"options_page": "options.html",
+	"icons": {
+		"16": "icons/icon16.png"
+	}
+}
